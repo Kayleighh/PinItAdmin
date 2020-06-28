@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Creates a canvas for the layout -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.koend.pinitadmin.MainActivity"
+    android:addStatesFromChildren="false"
+    android:background="@color/colorLightBlue">
+
+    <!-- Stenden made by students logo -->
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingBottom="5dp"
+        app:srcCompat="@drawable/stenden"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorWhite"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/stenden_made_by_students_logo"
+        android:src="@drawable/stenden" />
+
+    <!-- Student button -->
+
+    <!-- Name of the application in two textviews -->
+
+    <Button
+        android:text="ADMIN"
+        android:textColor="@color/colorWhite"
+        android:textSize="40sp"
+        android:background="@color/colorDarkBlue"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:id="@+id/buttonStudent"
+        android:onClick="QrGeneratorView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="102dp" />
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pinit"
+        android:id="@+id/imageView3"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

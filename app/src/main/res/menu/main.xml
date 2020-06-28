@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generates Menu -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Exit menu tab -->
+    <item
+        android:id="@+id/exit_app"
+        android:title="@string/exit"
+        android:orderInCategory="100"
+        android:icon="@drawable/exit"
+        app:showAsAction="always"
+        />
+    <!-- main page menu tab -->
+    <item
+        android:id="@+id/main_page"
+        android:title="@string/news"
+        android:orderInCategory="3"
+        app:showAsAction="always"
+        android:icon="@drawable/newmessage" />
+
+
+    <!-- qr code generator menu tab -->
+    <item
+    android:id="@+id/qr_generator"
+    android:title="@string/qr_generator"
+    android:orderInCategory="6"
+    android:icon="@drawable/newteacher"
+    app:showAsAction="always"
+    />
+
+</menu>
